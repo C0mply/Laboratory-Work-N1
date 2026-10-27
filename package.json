@@ -1,0 +1,13 @@
+{
+  "name": "laboratory-work-n1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orbit Atlas: an interactive solar system website",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check express/js/app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
